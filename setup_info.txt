@@ -1,0 +1,16 @@
+npm init //create package.json file 
+
+//project package setup command 
+npm install react redux react-redux bootstrap underscore react-router --save 
+
+npm install webpack babel webpack-dev-server css-loader style-loader file-loader url-loader less-loader less babel-loader extract-text-webpack-plugin 
+--save-dev npm install react-dom --save 
+
+//server install command and globally set 
+npm install webpack-dev-server -g 
+
+//server run command 
+webpack-dev-server 
+
+//bundle js and css compile into dist directory uses for server
+node_module/.bin/webpack -p
